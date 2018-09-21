@@ -82,7 +82,11 @@ namespace VSACXamarin
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            if(client != null)
+            {
+                client.Dispose();
+            }
+
         }
     }
 }
