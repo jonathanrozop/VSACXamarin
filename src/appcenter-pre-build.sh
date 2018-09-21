@@ -7,6 +7,7 @@ fi
 if [ -z "$VSAC_Key" ]
 then
 echo "You need define the VSAC_Key variable in App center"
+–
 exit
 fi
 
