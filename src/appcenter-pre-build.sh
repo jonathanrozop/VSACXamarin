@@ -4,7 +4,7 @@ then
 /usr/libexec/plistbuddy -c "Set :CFBundleDisplayName VSACXamarin.$APPCENTER_BRANCH" "iOS/Info.plist"
 fi
 
-if [ ! –n "$VSAC_Key" ]
+if [ –n "$VSAC_Key" ]
 then
     echo "You need define the VSAC_Key variable in App center"
     exit
